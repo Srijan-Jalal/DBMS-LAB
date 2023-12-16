@@ -41,6 +41,7 @@ SELECT Sname FROM Student
 WHERE State NOT IN ('Telangana', 'Andhra Pradesh');
 
 --QUERY-2:
+CREATE VIEW V1 AS
 SELECT Sid,Sname FROM Student
 WHERE State = 'Telangana';
 
